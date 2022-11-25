@@ -35,6 +35,8 @@
     <DefineConstants>TRACE;DEBUG;VS2022</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CopyVsixExtensionFiles>False</CopyVsixExtensionFiles>
+    <CopyVsixExtensionLocation>C:\Users\tomas.filip\Downloads</CopyVsixExtensionLocation>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -43,6 +45,8 @@
     <DefineConstants>TRACE;VS2022</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CopyVsixExtensionFiles>True</CopyVsixExtensionFiles>
+    <CopyVsixExtensionLocation>C:\Users\tomas.filip\Downloads</CopyVsixExtensionLocation>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
